@@ -1,0 +1,424 @@
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterWare.Com Site In Awais Qamar</title>
+    <link rel="stylesheet" href="{% static 'css/awaiskhan.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+</head>
+<style>
+    #popup {
+        width: 28%;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 37%;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 20px;
+        top: -1147%;
+    }
+    
+    #popup img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 135px;
+        margin-top: -50px;
+    }
+    
+    #popup h1 {
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 40px;
+    }
+    
+    #popup h5 {
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: cursive;
+        padding: 30px;
+        padding-top: 20px;
+    }
+    
+    #popup button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 0px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(0, 255, 0);
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: cursive;
+        cursor: pointer;
+        width: 50%;
+        margin-left: 93px;
+        margin-bottom: 30px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-white fixed-top py-3">
+
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav khan">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="shopall.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span onclick="window.location.href='shopall.html'">SHOP ALL</span>
+                        </a>
+                        <ul class="dropdown-menu khan1">
+                            <div class="home5-page">
+                                <div class="home-page">
+                                    <a href="shopall.html"><button class="anas">Explore All</button></a>
+                                    <a href="hydrations.html"><button class="anasone">Hydration Set</button></a>
+                                    <li><a class="dropdown-item anas3" href="accessries.html">Filters & Accessories</a></li>
+                                    <li><a class="dropdown-item anas4" href="corporate.html">Corporate gifting</a></li>
+                                    <div class="home1-page">
+                                        <h6>Learn More</h6>
+                                        <li><a class="dropdown-item anas5" href="purevis.html">PureVis™ technology</a></li>
+                                        <li><a class="dropdown-item anas6" href="nanozero.html">Nano Zero technology</a></li>
+                                    </div>
+                                </div>
+                                <div class="home2-page">
+                                    <img src="/static/images/1.webp">
+                                    <h1>Purifaction</h1>
+                                    <p>Filter or Prufi water on the go</p>
+                                </div>
+                                <div class="home3-page">
+                                    <img src="/static/images/2.webp">
+                                    <h1>Home</h1>
+                                    <p>Equipe your home with Nano Zero technology</p>
+                                </div>
+                                <div class="home4-page">
+                                    <img src="/static/images/3.webp">
+                                    <h1>Drinkware</h1>
+                                    <p>Hydrate Effortlessy on the go</p>
+                                </div>
+                            </div>
+                        </ul>
+
+                    </li>
+                </ul>
+                <ul class="navbar-nav hassan">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="purification.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span onclick="window.location.href='purification.html'">PURIFICATION</span>
+                        </a>
+                        <ul class="dropdown-menu hassan1">
+                            <div class="home5-page">
+                                <div class="home-page">
+                                    <a href="exploreall.html"><button class="anas">Explore All</button></a>
+                                    <a href="hydrations.html"><button class="anasone">Hydration Set</button></a>
+                                    <li><a class="dropdown-item anas3" href="accessries.html">Filters & Accessories</a></li>
+                                    <li><a class="dropdown-item anas4" href="corporate.html">Corporate gifting</a></li>
+                                    <div class="home1-page">
+                                        <h6>Learn More</h6>
+                                        <li><a class="dropdown-item anas5" href="purevis.html">PureVis™ technology</a></li>
+                                        <li><a class="dropdown-item anas6" href="nanozero.html">Nano Zero technology</a></li>
+                                    </div>
+                                </div>
+                                <div class="home6-page">
+                                    <img src="/static/images/4.webp">
+                                    <h1>LARQ Bottle PureVis™</h1>
+                                    <p>From $99</p>
+                                </div>
+                                <div class="home7-page">
+                                    <img src="/static/images/5.webp">
+                                    <h1>LARQ Bottle Movement PureVis™</h1>
+                                    <p>From 89</p>
+                                </div>
+                                <div class="home9-page">
+                                    <img src="/static/images/6.webp">
+                                    <h1>LARQ Bottle Filtered</h1>
+                                    <p>From $49.95</p>
+                                </div>
+                            </div>
+                        </ul>
+
+                    </li>
+                </ul>
+                <ul class="navbar-nav hassan">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="homeone.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span onclick="window.location.href='homeone.html'">HOME</span>
+                        </a>
+                        <ul class="dropdown-menu hassan2">
+                            <div class="home5-page">
+                                <div class="home-page">
+                                    <a href="exploreall.html"><button class="anas">Explore All</button></a>
+                                    <a href="hydrations.html"><button class="anasone">Hydration Set</button></a>
+                                    <li><a class="dropdown-item anas3" href="accessries.html">Filters & Accessories</a></li>
+                                    <li><a class="dropdown-item anas4" href="corporate.html">Corporate gifting</a></li>
+                                    <div class="home1-page">
+                                        <h6>Learn More</h6>
+                                        <li><a class="dropdown-item anas5" href="purevis.html">PureVis™ technology</a></li>
+                                        <li><a class="dropdown-item anas6" href="nanozero.html">Nano Zero technology</a></li>
+                                    </div>
+                                </div>
+                                <div class="home6-page">
+                                    <img src="/static/images/7.webp">
+                                    <h1>LARQ Pitcher PureVis™</h1>
+                                    <p>From $139.00</p>
+                                </div>
+                                <div class="home7-page">
+                                    <img src="/static/images/8.webp">
+                                    <h1>LARQ Pitcher PureVis Pitcher</h1>
+                                    <p>From $79</p>
+                                </div>
+                                <div class="home9-page">
+                                    <img src="/static/images/8.webp">
+                                    <h1>LARQ Pitcher PureVis™</h1>
+                                    <p>From $139.95</p>
+                                </div>
+                            </div>
+                        </ul>
+
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav hassan">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="drinkware.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span onclick="window.location.href='drinkware.html'">DRINKWARE</span>
+                        </a>
+                        <ul class="dropdown-menu hassan3">
+                            <div class="home5-page">
+                                <div class="home-page">
+                                    <a href="exploreall.html"><button class="anas">Explore All</button></a>
+                                    <a href="hydrations.html"><button class="anasone">Hydration Set</button></a>
+                                    <li><a class="dropdown-item anas3" href="accessries.html">Filters & Accessories</a></li>
+                                    <li><a class="dropdown-item anas4" href="corporate.html">Corporate gifting</a></li>
+                                    <div class="home1-page">
+                                        <h6>Learn More</h6>
+                                        <li><a class="dropdown-item anas5" href="purevis.html">PureVis™ technology</a></li>
+                                        <li><a class="dropdown-item anas6" href="nanozero.html">Nano Zero technology</a></li>
+                                    </div>
+                                </div>
+                                <div class="home6-page">
+                                    <img src="/static/images/9.webp">
+                                    <h1>LARQ Bottle Swig Top</h1>
+                                    <p>From $39</p>
+                                </div>
+                                <div class="home7-page">
+                                    <img src="/static/images/10.webp">
+                                    <h1>LARQ Bottle Flip Top Bottle</h1>
+                                    <p>From $39</p>
+                                </div>
+                                <div class="home9-page">
+                                    <img src="/static/images/11.webp">
+                                    <h1>LARQ Bottle Twist Top</h1>
+                                    <p>From $29</p>
+                                </div>
+                            </div>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </div>
+            <a class="navbar-brand" href="home.html">LARQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">TECHNOLOGY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="fa fa-user-o"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="cart" onclick="cart()"><i class="fa fa-cart-arrow-down"></i></a>
+                    </li>
+                    <div class="text-end">
+                        <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                        <a href="logout.html"><button type="button" class="btn btn-warning" href="login.html">Logout</button></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="login-page">
+        <h1>Login In</h1>
+
+    </div>
+
+
+    <div id="login1-page" class="section-p3">
+        <div class="login2-page">
+            <form action="login.html" method="POST">
+                {% csrf_token%}
+                <h3>UserName</h3>
+                <input type="text" id="username" name="username" placeholder="Enter your name">
+                <h3>Password</h3>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <i class="fa fa-eye-slash" id="eyecontact"></i>
+                <button>Login In</button>
+            </form>
+        </div>
+        <div class="login3-page">
+            <h2>New customer?</h2>
+            <h5>Create an account with us and you'll be able to:</h5>
+            <li>Check out faster</li>
+            <li>Save multiple shipping addresses</li>
+            <li>Access your order history</li>
+            <li>Track new orders</li>
+            <a href="signup.html"><button>Create Account</button></a>
+        </div>
+    </div>
+
+
+
+    {% comment %} <div id="home33-page" class="section-p7">
+        <div class="home34-page">
+            <h1>Become an insider</h1>
+            <p>Receive exclusive offers, hydration news, and more when you subscribe.</p>
+            <div class="home35-page">
+                <form action="home.html" method="POST">
+                    {% csrf_token%}
+                    <input type="email" id="email" name="email" placeholder="Email Adress">
+                    <button type="submit" value="submit" onclick="openPopup()">Submit</button>
+                </form>
+            </div>
+            <div class="home36-page ">
+                <a href="https://www.facebook.com/livelarq/"><i class="fa fa-facebook "></i></a>
+                <a href="https://www.instagram.com/livelarq/"><i class=" fa fa-instagram "></i></a>
+                <a href="https://www.youtube.com/@stylewithuzma4"><i class=" fa fa-youtube-play "></i></a>
+                <a href="https://twitter.com/livelarq?lang=en"><i class=" fa fa-twitter "></i></a>
+            </div>
+
+        </div>
+        <div class="home38-page ">
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="allreviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="retailer.html">Find a retailer</a></li>
+                <li><a href="corporate.html">Corporate gifting</a></li>
+            </ul>
+        </div>
+        <div class="home38-page ">
+            <ul>
+                <li><a href="https://basq.livelarq.com/">basq magazine</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="ourstory.html">Our story</a></li>
+                <li><a href="affilite.html">Affiliate program</a></li>
+                <li><a href="larq.html">Ambassador program</a></li>
+            </ul>
+        </div>
+        <div class="home39-page ">
+            <img src="/static/images/1.gif ">
+        </div>
+    </div>
+
+    {% if messages %}
+    <div class="{{ message.tags }} " class="home1" id="popup" role="alert">
+        {% for message in messages %}
+        <img src="/static/images/All Product Images/108.PNG" class="awaiskhan3">
+        <h1 class="awaiskhan1">{{ message }}</h1>
+        <h5 class="awaiskhan2">You details has been successfully<br> submitted. Thanks! </h5>
+        <button type="button" id="okButton" onclick="closePopup()">OK</button> {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="home37-page " class="section-p7">
+        <a href="# "><button class="husi "><img src="/static/images/1.svg"><spam>United State</spam></button></a>
+        <a href="# "><button class="husi1 ">
+            Terms & Privacy</button></a>
+        <a href=""><button class="husi1 ">Accessibility</button></a>
+    </div> {% endcomment %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script>
+        var elem222 = document.getElementById("eyecontact");
+        var password = document.getElementById("password");
+        elem222.onclick = function() {
+            if (password.type == "password") {
+                password.type = "text";
+                elem222.classList.remove("fa-eye");
+                elem222.classList.add("fa-eye-slash");
+            } else {
+                password.type = "password";
+                elem222.classList.remove("fa-eye-slash");
+                elem222.classList.add("fa-eye");
+            }
+        }
+    </script>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+            console.log(popup)
+        }
+
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var okButton = document.getElementById("okButton");
+            var popup = document.getElementById("popup");
+
+            if (okButton && popup) {
+                okButton.addEventListener("click", function() {
+                    popup.style.display = "none"; // Hide the popup
+                });
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

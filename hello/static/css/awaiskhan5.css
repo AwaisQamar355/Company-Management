@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#com-page{
+    width: 100%;
+    display: flex;           
+    flex-direction: column;
+    margin-top: 110px;
+    /* border: 1px solid black; */
+    padding: 20px 100px;
+}
+#com-page .btan button{
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+#com-page #com1-page{
+    width: 100%;
+    display: flex;    
+    flex-direction: column;
+    margin-top: 20px;
+}
+#com-page #com1-page h1{
+    width: 100%;
+    background-color: rgb(210, 247, 235);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+#com-page #com1-page .com2-page{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 30%;
+}
+#com-page #com1-page .com2-page h3{
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#com-page #com1-page .com2-page input{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 8px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 6px;
+    border-radius: 4px;
+}
+#com-page table{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+#com-page table tr{
+    border: 1px solid black;
+
+}
+#com-page table tr th{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#com-page table tbody tr{
+    border: 1px solid black;
+}
+#com-page table tr td{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: rgb(55, 55, 55);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#com-page table tr td{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: rgb(55, 55, 55);
+    font-size: 16px;
+    font-weight: 400;
+}
+#com-page table tr td button{
+    color: white;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
